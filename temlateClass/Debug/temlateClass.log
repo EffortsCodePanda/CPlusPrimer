@@ -1,4 +1,4 @@
-﻿Build started 2018/3/9 星期五 23:32:52.
+﻿Build started 2018/3/10 星期六 7:59:32.
      1>Project "d:\documents\visual studio 2013\Projects\CPlusPrimer\temlateClass\temlateClass.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp test.cpp
@@ -10,10 +10,9 @@
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"d:\documents\visual studio 2013\Projects\CPlusPrimer\Debug\temlateClass.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"d:\documents\visual studio 2013\Projects\CPlusPrimer\Debug\temlateClass.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"d:\documents\visual studio 2013\Projects\CPlusPrimer\Debug\temlateClass.lib" /MACHINE:X86 Debug\Source.obj
          Debug\test.obj
-     1>Source.obj : error LNK2019: unresolved external symbol "public: void __thiscall swapTest<int>::swap(int &,int &)" (?swap@?$swapTest@H@@QAEXAAH0@Z) referenced in function _main
-     1>d:\documents\visual studio 2013\Projects\CPlusPrimer\Debug\temlateClass.exe : fatal error LNK1120: 1 unresolved externals
-     1>Done Building Project "d:\documents\visual studio 2013\Projects\CPlusPrimer\temlateClass\temlateClass.vcxproj" (Build target(s)) -- FAILED.
+         temlateClass.vcxproj -> d:\documents\visual studio 2013\Projects\CPlusPrimer\Debug\temlateClass.exe
+     1>Done Building Project "d:\documents\visual studio 2013\Projects\CPlusPrimer\temlateClass\temlateClass.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:00.65
+Time Elapsed 00:00:00.83
